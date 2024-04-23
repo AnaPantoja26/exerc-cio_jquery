@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    text-align: center;
+    padding: 36px 0;
+
+}
+
+form h2 {
+    margin-bottom: 16px;
+}
+
+input,
+button {
+    padding: 8px;
+    font-size: large;
+    
+}
+
+button {
+    font-weight: bold;
+
+}

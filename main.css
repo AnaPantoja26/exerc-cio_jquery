@@ -5,24 +5,32 @@
     font-family: 'Roboto', sans-serif;
 }
 
-form {
+h1 {
+    font-size: 46px;
     text-align: center;
-    padding: 36px 0;
-
+    padding: 24px;
 }
 
-form h2 {
-    margin-bottom: 16px;
+form {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    font-size: large;
 }
 
-input,
+input {
+    padding: 8px;
+    margin: 8px;
+    text-align: center;
+}
+
 button {
     padding: 8px;
-    font-size: large;
-    
+    margin: 8px;
+    text-align: center;
+    font-weight: bold;
 }
 
-button {
-    font-weight: bold;
-
+.checked {
+    text-decoration: line-through;
 }
